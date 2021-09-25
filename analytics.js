@@ -1,5 +1,5 @@
 class QualityBI {
-  test(a, b, c){
-    console.log("testing");
-  }
+	test(a, b, c) {
+		console.log("testing");
+	}
 }
