@@ -1,5 +1,8 @@
-class QualityBI {
-	test(a, b, c) {
-		console.log("testing");
+(function() {
+	this.data = [];
+	this.parameters = [];
+
+	this.load = (table, query) => {
+		this.data = [];
 	}
-}
+})();
