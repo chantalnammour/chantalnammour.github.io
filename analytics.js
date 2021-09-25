@@ -1,8 +1,12 @@
-(function() {
+new(function() {
 	this.data = [];
 	this.parameters = [];
 
-	this.load = (table, query) => {
+	this.load = function(table, query) {
 		this.data = [];
 	}
-})();
+
+	this.main = function() {
+		console.log("Testing 2...");
+	}
+})().main();
